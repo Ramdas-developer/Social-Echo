@@ -12,7 +12,7 @@ const getCommunities = async (req, res) => {
     res.status(200).json(communities);
   } catch (error) {
     res.status(404).json({
-      message: "No communities found",
+      message: "No communities found", 
     });
   }
 };
